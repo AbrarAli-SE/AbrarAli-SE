@@ -1,44 +1,51 @@
-<h2 align="center">Hi there, I'm Abrar Ali 👋</h2>
+<h2 align="left">Hi 👋! My name is Abrar Ali and you can refer me as Ali!<br>Here You can see what I have !!!!!!</h2>
 
-<p align="center">
-  <em>
-    I'm a Software Developer specializing in Frontend and Backend technologies. Welcome to my GitHub page!
-  </em>
-</p>
+###
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/abrar-ali-se">
-    <img src="https://img.shields.io/badge/LinkedIn-Abrar%20Ali-blue?style=flat-square&logo=linkedin" alt="LinkedIn Badge">
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AbrarAli-SE&hide_title=true&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=true" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AbrarAli-SE&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=8&theme=radical&hide_border=true&custom_title=Whare%20I%20have%20been%20worked" height="150" alt="languages graph"  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbrarAli-SE&theme=redical&area=true&hide_border=true&hide_title=false&custom_title=How%20much%20I%20Contribute" height="150" alt="activity-graph graph"  />
+</div>
+
+###
+
+<div align="left">
+  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" height="30" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/typescript/3178C6" height="30" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/react/61DAFB" height="30" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/html5/E34F26" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/css3/1572B6" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=java" height="30" alt="java logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/c++/00599C" height="30" alt="cplusplus logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=github" height="30" alt="github logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=kotlin" height="30" alt="kotlin logo"  />
+</div>
+
+###
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/abrar-ali-se" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=flat" height="35" alt="linkedin logo"  />
   </a>
-  <a href="mailto:abrarali.se@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-abrarali.se%40gmail.com-red?style=flat-square&logo=gmail" alt="Gmail Badge">
+  <a href="abrarali.se@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=flat" height="35" alt="gmail logo"  />
   </a>
-  <a href="https://wa.me/923411193641">
-    <img src="https://img.shields.io/badge/WhatsApp-+92%20341%201193641-brightgreen?style=flat-square&logo=whatsapp" alt="WhatsApp Badge">
+  <a href="https://wa.me/923411193641" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=flat" height="35" alt="whatsapp logo"  />
   </a>
-</p>
+</div>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AbrarAli-SE&show_icons=true&count_private=true&theme=vision-friendly-dark" alt="Abrar Ali's GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbrarAli-SE&layout=compact&theme=vision-friendly-dark" alt="Languages">
-</p>
+###
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.herokuapp.com/graph?username=AbrarAli-SE&theme=rogue" alt="Abrar Ali's Activity Graph">
-</p>
+<img src="https://raw.githubusercontent.com/AbrarAli-SE/AbrarAli-SE/output/snake.svg" alt="Snake animation" />
 
-<h3 align="center">🛠 Technologies and Tools I use:</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,html,css,java,cpp,kotlin,github&perline=5" />
-</p>
-
-<h3 align="center">🐍 Watch my contribution graph get eaten by the snake 🐍</h3>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AbrarAli-SE/AbrarAli-SE/output/snake.svg" alt="Snake animation">
-</p>
-
-<h3 align="center">📫 How to reach me:</h3>
-<p align="center">
-  Click on one of the badges above to connect with me or drop an email!
-</p>
-
+###
