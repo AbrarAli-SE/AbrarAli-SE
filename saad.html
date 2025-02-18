@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Glow Effect</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .display-text {
+            font-size: 24px;
+            margin-bottom: 20px;
+            min-height: 30px;
+        }
+
+        .keyboard {
+            display: grid;
+            grid-template-columns: repeat(12, 30px);
+            gap: 5px;
+        }
+
+        .key {
+            width: 30px;
+            height: 30px;
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .glow {
+            background-color: white;
+            box-shadow: 0 0 10px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="display-text" id="displayText"></div>
+    <div class="keyboard" id="keyboard"></div>
+
+    <script>
+        const allowedText = "SAADALIJUTT";
+        let typedText = "";
+        const displayText = document.getElementById("displayText");
+        const keyboard = document.getElementById("keyboard");
+
+        const keys = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".split("");
+        keys.forEach(key => {
+            let div = document.createElement("div");
+            div.classList.add("key");
+            div.textContent = key;
+            div.dataset.key = key;
+            keyboard.appendChild(div);
+        });
+
+        function autoType(index = 0) {
+            if (index < allowedText.length) {
+                let keyPressed = allowedText[index];
+                typedText += keyPressed;
+                displayText.textContent = typedText;
+
+                let keyElement = document.querySelector(`.key[data-key='${keyPressed}']`);
+                if (keyElement) {
+                    keyElement.classList.add("glow");
+                    setTimeout(() => keyElement.classList.remove("glow"), 500);
+                }
+
+                setTimeout(() => autoType(index + 1), 500);
+            } else {
+                // Reset the typed text and start again
+                typedText = "";
+                displayText.textContent = "";
+                setTimeout(() => autoType(), 500); // Wait before starting again
+            }
+        }
+
+        autoType();
+    </script>
+</body>
+
+</html>
