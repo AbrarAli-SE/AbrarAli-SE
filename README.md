@@ -54,6 +54,3 @@
 <img src="https://raw.githubusercontent.com/AbrarAli-SE/AbrarAli-SE/output/snake.svg" alt="GitHub Contribution Snake Animation" />
 
 ###
-
-![Who Am I](/Saadname.gif)
-###
